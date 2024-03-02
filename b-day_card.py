@@ -13,6 +13,6 @@ my_name = input("Enter sender's name: ")
 age = calculate_age(birth_year)
 
 # Generating personalized text
-card = f"Dear {boy_girl_name},\n\nlets celebrate your {age} years of awesomeness!\nWishing you a day filled with joy and laughter as you turn {age}!\n{personalized_text}\nWith love and best wishes,\n{my_name}"
+card = f"Dear {boy_girl_name},\n\nlets celebrate your {age} years of awesomeness!\nWishing you a day filled with joy and laughter as you turn {age}!\n\n{personalized_text}\n\nWith love and best wishes,\n{my_name}"
 
 print(card)
